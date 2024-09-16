@@ -5,8 +5,8 @@ public class Main {
         System.out.println("  Задача №1.");
         int[] wastes = {11_500, 7_654, 15_000, 13_610, 11_118};
         int sums = 0;
-        for (int i : wastes) {
-            sums += i;
+        for (int sumsWastes : wastes) {
+            sums += sumsWastes;
         }
         System.out.println("Сумма трат за месяц составила " + sums + " рублей");
 
@@ -42,7 +42,7 @@ public class Main {
         System.out.println();
         System.out.println("  Задача №4.");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseFullName.length - 1; i > 0; i--) {
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
         System.out.println(".");
