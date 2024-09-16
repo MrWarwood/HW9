@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println();
         System.out.println("  Задача №2.");
-        //Минимальная сумма трат за неделю составила … рублей. Максимальная сумма трат за неделю составила … рублей
         int miniWastes = 1_000_000;
         int maxWastes = -1;
         for (int i = 0; i < wastes.length; i++) {
@@ -34,7 +33,6 @@ public class Main {
 
         System.out.println();
         System.out.println("  Задача №3.");
-        //Средняя сумма трат за месяц составила … рублей
         double averageWaster = sums / wastes.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageWaster + " рублей.");
 
